@@ -1,3 +1,6 @@
 def roll
-puts rand(1..6)
+range = [1..6]
+rand(1..6)
 end
+
+range
