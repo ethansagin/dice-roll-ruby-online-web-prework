@@ -1,7 +1,6 @@
 def roll
 range = [1..6]
-rand(1..6)
-puts range
+range[(rand(1..6) - 1)]
 end
 
 roll
